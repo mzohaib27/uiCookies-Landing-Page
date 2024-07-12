@@ -5,7 +5,7 @@ import CommonHeader from "./CommonHeader";
 const Feature = () => {
   return (
     <>
-      <div className="flex flex-col gap-6 bg-sky-100">
+      <section id="feature" className="flex flex-col gap-6 bg-sky-100">
         <CommonHeader
           title={featureHeader.title}
           titleStyles={"text-6xl"}
@@ -44,7 +44,7 @@ const Feature = () => {
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -4,7 +4,10 @@ import CommonHeader from "./CommonHeader";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16 bg-blue-100">
+    <section
+      id="review"
+      className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16 bg-blue-100"
+    >
       <CommonHeader
         title={TestimonialHeader.title}
         titleStyles={"text-6xl"}
@@ -46,7 +49,7 @@ const Testimonial = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

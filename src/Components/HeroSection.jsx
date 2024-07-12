@@ -6,7 +6,10 @@ const link =
 
 const HeroSection = () => {
   return (
-    <div className="hero-image h-[100vh] flex flex-col items-center gap-6 md:gap-12 justify-center">
+    <section
+      id="home"
+      className="hero-image h-[100vh] flex flex-col items-center gap-6 md:gap-12 justify-center"
+    >
       <h1 className="text-4xl lg:text-6xl text-center px-6 md:px-12 lg:px-24 font-semibold text-white">
         uicookies.com Creates High Quality Bootstrap Template For Free
       </h1>
@@ -23,7 +26,7 @@ const HeroSection = () => {
           path={"/"}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col">
+    <section id="contact" className="flex flex-col">
       <CommonHeader
         bgColor={"bg-blue-900"}
         title={contactHeader.title}
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

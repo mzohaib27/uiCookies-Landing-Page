@@ -5,7 +5,10 @@ import CommonHeader from "./CommonHeader";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16">
+    <section
+      id="pricing"
+      className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16"
+    >
       <CommonHeader
         title={pricingHeader.title}
         titleStyles={"text-6xl"}
@@ -47,7 +50,7 @@ const Pricing = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

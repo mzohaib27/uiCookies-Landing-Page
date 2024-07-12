@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -8,11 +9,27 @@ const Navbar = () => {
       </div>
       <div>
         <ul className="flex gap-2 text-white">
-          <li className="p-2 uppercase text-md font-semibold">Home</li>
-          <li className="p-2 uppercase text-md font-semibold">Features</li>
-          <li className="p-2 uppercase text-md font-semibold">Pricing</li>
-          <li className="p-2 uppercase text-md font-semibold">Review</li>
-          <li className="p-2 uppercase text-md font-semibold">Contact</li>
+          <li className="p-2 uppercase text-md font-semibold">
+            <Link smooth={true} duration={300} to={"home"}>
+              Home
+            </Link>
+          </li>
+
+          <li className="p-2 uppercase text-md font-semibold">
+            <Link smooth={true} duration={300} to={"feature"}>
+              Features
+            </Link>
+          </li>
+
+          <Link smooth={true} duration={300} to={"pricing"}>
+            <li className="p-2 uppercase text-md font-semibold">Pricing</li>
+          </Link>
+          <Link smooth={true} duration={300} to={"review"}>
+            <li className="p-2 uppercase text-md font-semibold">Review</li>
+          </Link>
+          <Link smooth={true} duration={300} to={"contact"}>
+            <li className="p-2 uppercase text-md font-semibold">Contact</li>
+          </Link>
         </ul>
       </div>
     </div>
