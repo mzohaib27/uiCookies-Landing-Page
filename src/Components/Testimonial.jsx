@@ -6,11 +6,11 @@ const Testimonial = () => {
   return (
     <section
       id="review"
-      className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16 bg-blue-100"
+      className="flex flex-col gap-6 md:gap-12 px-4 md:px-12 lg:px-24 py-12 md:py-16 bg-blue-100"
     >
       <CommonHeader
         title={TestimonialHeader.title}
-        titleStyles={"text-6xl"}
+        titleStyles={"text-3xl md:text-6xl"}
         text={TestimonialHeader.text}
         textStyles={"text-gray-500"}
         isLine={TestimonialHeader.isLine}
@@ -20,13 +20,13 @@ const Testimonial = () => {
         {TestimonialCards?.map((cardItem, i) => (
           <div
             key={i}
-            className={`flex flex-col justify-start items-start p-12 bg-white border border-gray-300 shadow-lg shadow-gray-300`}
+            className={`flex flex-col justify-start items-start p-4 md:p-12 bg-white border border-gray-300 shadow-lg shadow-gray-300`}
           >
             <div>
               <img
                 src={cardItem.img}
                 alt=""
-                className="w-24 h-24 rounded-full "
+                className="w-16 md:w-24 h-16 md:h-24 rounded-full "
               />
             </div>
             <p>

@@ -18,7 +18,7 @@ const Contact = () => {
         btnText={"Get Started"}
         styles={"text-white"}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 bg-sky-100 px-12 md:px-32 py-12 md:py-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-sky-100 px-4 md:px-12 lg:px-32 py-12 md:py-24">
         <div className="flex flex-col gap-4 px-6 md:px-12 py-6 md:py-16 bg-white shadow-2xl shadow-slate-300">
           <form className="flex flex-col gap-4">
             <h1 className="text-4xl font-semibold py-4">Get in Touch</h1>

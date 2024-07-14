@@ -7,11 +7,11 @@ const Pricing = () => {
   return (
     <section
       id="pricing"
-      className="flex flex-col gap-6 md:gap-12 px-12 md:px-24 py-12 md:py-16"
+      className="flex flex-col gap-6 md:gap-12 px-4 md:px-24 py-12 md:py-16"
     >
       <CommonHeader
         title={pricingHeader.title}
-        titleStyles={"text-6xl"}
+        titleStyles={"text-3xl md:text-6xl px-4"}
         text={pricingHeader.text}
         textStyles={"text-gray-500"}
         isLine={pricingHeader.isLine}

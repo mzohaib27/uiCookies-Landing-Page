@@ -1,6 +1,7 @@
 import React from "react";
 import { featureSection, featureHeader } from "../constants/constant";
 import CommonHeader from "./CommonHeader";
+import ArrowBtn from "./ArrowBtn";
 
 const Feature = () => {
   return (
@@ -8,7 +9,7 @@ const Feature = () => {
       <section id="feature" className="flex flex-col gap-6 bg-sky-100">
         <CommonHeader
           title={featureHeader.title}
-          titleStyles={"text-6xl"}
+          titleStyles={"text-3xl md:text-6xl"}
           text={featureHeader.text}
           textStyles={"text-gray-500"}
           isLine={featureHeader.isLine}
@@ -30,7 +31,7 @@ const Feature = () => {
                 />
               </div>
               <div className="flex flex-col justify-center items-start px-12 md:px-16">
-                <h1 className="text-4xl text-blue-800 py-4">{item.title}</h1>
+                <h1 className="text-4xl text-blue-800 py-12">{item.title}</h1>
                 <p className="py-4 md:py-8">{item.text}</p>
                 {item.list?.map((listItem, i) => (
                   <div key={i} className="">

@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="bg-blue-800 text-white text-center font-semibold py-6 md:py-12 flex flex-col gap-12 items-center justify-center">
       <div className="flex gap-6 items-center">
-        <FaTwitter className="w-8 h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
-        <FaFacebook className="w-8 h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
-        <FaInstagram className="w-8 h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
-        <FaLinkedin className="w-8 h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
+        <FaTwitter className="w-6 md:w-8 h-6 md:h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
+        <FaFacebook className="w-6 md:w-8 h-6 md:h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
+        <FaInstagram className="w-6 md:w-8 h-6 md:h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
+        <FaLinkedin className="w-6 md:w-8 h-6 md:h-8 text-gray-400 hover:text-white hover-effect cursor-pointer" />
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 text-xs md:text-base">
         <p>&copy; 2019 Frame. All Rights Reserved.</p>
         <p>
           Designed &{" "}
